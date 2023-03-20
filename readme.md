@@ -1,0 +1,1 @@
+Collection of grok patterns to assist in tokenising event logs for Elastic
