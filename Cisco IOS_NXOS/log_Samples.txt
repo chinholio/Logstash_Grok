@@ -1,0 +1,181 @@
+IOSXE
+*Jul 20 15:05:01.966: %LINK-5-CHANGED: Interface GigabitEthernet2, changed state to administratively down
+*Jul 20 15:05:01.968: %LINK-5-CHANGED: Interface GigabitEthernet3, changed state to administratively down
+*Jul 20 15:05:01.970: %LINK-5-CHANGED: Interface GigabitEthernet4, changed state to administratively down
+*Jul 20 15:05:02.114: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Jul 20 15:05:02.114: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Jul 20 15:05:12.443: %PNP-6-PNP_SAVING_TECH_SUMMARY: Saving PnP tech summary (pnp-tech-discovery-summary)... Please wait. Do not interrupt.
+*Jul 20 15:05:13.498: %SYS-5-CONFIG_P: Configured programmatically by process PnP Agent Discovery from console as vty0
+*Jul 20 15:05:20.997: %SYS-3-HARIKARI: Process VXE LICENSE TIMER process top-level routine exited
+*Jul 20 15:05:22.007: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained.
+*Jul 20 15:05:22.008: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: TP-self-signed-2733910413 created succesfully
+*Jul 20 15:05:22.023: %SYS-5-CONFIG_P: Configured programmatically by process PnP Agent Discovery from console as vty0
+*Jul 20 15:05:23.024: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (pnp-tech-discovery-summary) saved successfully.
+*Jul 20 15:05:23.024: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+*Jul 20 15:05:24.180: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named TP-self-signed-2733910413 has been generated or imported by crypto-engine
+*Jul 20 15:05:24.181: %SSH-5-ENABLED: SSH 1.99 has been enabled
+*Jul 20 15:05:24.231: %PKI-4-NOCONFIGAUTOSAVE: Configuration was modified.  Issue "write memory" to save new IOS PKI configuration
+*Jul 20 15:05:24.291: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named TP-self-signed-2733910413.server has been generated or imported by crypto-engine
+*Jul 20 15:05:32.297: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: SLA-TrustPoint created succesfully
+*Jul 20 15:05:32.308: %PKI-4-NOCONFIGAUTOSAVE: Configuration was modified.  Issue "write memory" to save new IOS PKI configuration
+*Jul 20 15:05:32.310: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Jul 20 15:05:32.320: %CALL_HOME-6-CALL_HOME_ENABLED: Call-home is enabled by Smart Agent for Licensing.
+*Jul 20 15:08:09.600: %SYS-5-CONFIG_I: Configured from console by console
+*Jul 20 15:11:18.479: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+*Jul 20 15:11:29.622: %LINK-3-UPDOWN: Interface GigabitEthernet1, changed state to up
+*Jul 20 15:11:30.623: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1, changed state to up
+*Jul 20 15:11:46.075: %SYS-5-CONFIG_I: Configured from console by console
+*Jul 20 15:15:05.507: %OSPF-6-DFT_OPT: Protocol timers for fast convergence are Enabled.
+*Jul 20 15:18:23.050: %SYS-5-CONFIG_I: Configured from console by console
+*Jul 20 15:24:30.654: %SYS-5-CONFIG_I: Configured from console by console
+*Jul 20 15:36:18.684: %OSPF-5-ADJCHG: Process 10, Nbr 2.2.2.2 on GigabitEthernet1 from FULL to DOWN, Neighbor Down: Interface down or detached
+*Jul 20 15:36:20.680: %LINK-5-CHANGED: Interface GigabitEthernet1, changed state to administratively down
+*Jul 20 15:36:21.680: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1, changed state to down
+*Jul 20 15:37:09.662: %LINK-3-UPDOWN: Interface GigabitEthernet1, changed state to up
+*Jul 20 15:37:10.662: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1, changed state to up
+*Jul 20 15:37:16.911: %OSPF-5-ADJCHG: Process 10, Nbr 2.2.2.2 on GigabitEthernet1 from LOADING to FULL, Loading Done
+*Jul 20 15:43:32.651: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:43:32.651: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:43:40.843: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:43:40.844: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:43:48.012: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:43:48.013: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:43:56.208: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:43:56.209: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:44:02.348: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:44:02.349: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:44:14.637: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:44:14.637: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:44:22.830: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:44:22.831: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:44:32.049: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:44:32.050: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:44:45.362: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:44:45.362: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:44:51.513: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:44:51.513: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:45:03.794: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:45:03.795: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:45:17.108: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:45:17.109: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session 
+*Jul 20 15:45:30.422: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:45:30.423: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session 
+*Jul 20 15:45:41.697: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:45:41.698: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:45:52.951: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:45:52.951: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Jul 20 15:46:05.242: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:46:05.242: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session 
+R3(config-router)#
+*Jul 20 15:46:12.409: %BGP-5-NBR_RESET: Neighbor 10.1.2.1 active reset (Peer closed the session)
+*Jul 20 15:46:12.409: %BGP_SESSION-5-ADJCHANGE: neighbor 10.1.2.1 IPv4 Unicast topology base removed from session  Peer closed the session
+
+NXOS
+2023 Jul 20 15:05:18 switch %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/5
+9 is down (Administratively down)
+2023 Jul 20 15:05:18 switch %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/6
+0 is down (Administratively down)
+2023 Jul 20 15:05:18 switch %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/6
+1 is down (Administratively down)
+2023 Jul 20 15:05:19 switch %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/6
+2 is down (Administratively down)
+2023 Jul 20 15:05:19 switch %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/6
+3 is down (Administratively down)
+2023 Jul 20 15:05:20 switch %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/6
+4 is down (Administratively down)
+2023 Jul 20 15:05:29 switch %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by
+ root on console0
+2023 Jul 20 15:05:33 switch %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by
+ root on console0 (message repeated 4 times)
+2023 Jul 20 15:05:33 switch %COPP-2-COPP_POLICY: Control-Plane is protected with
+ policy copp-system-p-policy-strict.
+2023 Jul 20 15:05:33 switch %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by
+ root on console0
+2023 Jul 20 15:06:16 switch %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication faile
+d from unknown - login
+2023 Jul 20 15:06:50 switch %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication faile
+d from unknown - login (message repeated 2 times)
+2023 Jul 20 15:07:39 switch %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication faile
+d from unknown - login (message repeated 1 time)
+2023 Jul 20 15:07:39 switch %VDC_MGR-5-VDC_HOSTNAME_CHANGE: vdc 1 hostname chang
+ed to R2 
+2023 Jul 20 15:08:19 R2 %SECURITYD-2-INVALID_ADMIN_PASSWD: User admin has NULL p
+assword. Copy r s aborted
+2023 Jul 20 15:08:20 R2 %KERN-3-SYSTEM_MSG: [  517.670795] biosinfo checksum fai
+led expected 0 Got ff   - kernel
+2023 Jul 20 15:08:20 R2 %KERN-3-SYSTEM_MSG: [  517.670795]  read_from_biosinfo: 
+No Valid biosinfo - kernel
+2023 Jul 20 15:08:20 R2 %SYSMGR-3-CFGWRITE_SRVFAILED: Service "Security Daemon" 
+failed to store its configuration (error-id 0x404A0052).
+2023 Jul 20 15:08:21 R2 %SYSMGR-2-CFGWRITE_ABORTED: Configuration copy aborted.
+2023 Jul 20 15:08:21 R2 %SYSMGR-3-CFGWRITE_FAILED: Configuration copy failed (er
+ror-id 0x401E0000).
+2023 Jul 20 15:08:29 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
+in on console0
+2023 Jul 20 15:09:00 R2 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/1 is admin u
+p .
+2023 Jul 20 15:09:00 R2 %ETHPORT-5-SPEED: Interface Ethernet1/1, operational spe
+ed changed to 1 Gbps
+2023 Jul 20 15:09:00 R2 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/1, operational
+ duplex mode changed to Full
+2023 Jul 20 15:09:00 R2 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/1, op
+erational Receive Flow Control state changed to off
+2023 Jul 20 15:09:00 R2 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/1, op
+erational Transmit Flow Control state changed to off
+2023 Jul 20 15:09:00 R2 %ETHPORT-5-IF_UP: Interface Ethernet1/1 is up in Layer3
+2023 Jul 20 15:09:25 R2 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/2 is admin u
+p .
+2023 Jul 20 15:09:26 R2 %ETHPORT-5-SPEED: Interface Ethernet1/2, operational spe
+ed changed to 1 Gbps
+2023 Jul 20 15:09:26 R2 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/2, operational
+ duplex mode changed to Full
+2023 Jul 20 15:09:26 R2 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/2, op
+erational Receive Flow Control state changed to off
+2023 Jul 20 15:09:26 R2 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/2, op
+erational Transmit Flow Control state changed to off
+2023 Jul 20 15:09:26 R2 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in Layer3
+2023 Jul 20 15:09:28 R2 %ETHPORT-5-IF_UP: Interface loopback0 is up 
+2023 Jul 20 15:09:28 R2 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface loopback0 is do
+wn (Administratively down)
+2023 Jul 20 15:09:28 R2 %ETHPORT-5-IF_UP: Interface loopback0 is up 
+2023 Jul 20 15:09:44 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
+in on console0
+2023 Jul 20 15:14:44 R2 %LICMGR-2-LOG_LIC_MISSING_WARNING: A feature that requir
+es LAN_ENTERPRISE_SERVICES_PKG license is not installed. System supports honor b
+ased licensing so feature will continue to be fully functional. Use 'show licens
+e usage <package-name>' to find features using missing license.
+2023 Jul 20 15:19:12 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
+in on console0
+2023 Jul 20 15:33:01 R2 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/2, operational
+ duplex mode changed to Full
+2023 Jul 20 15:33:01 R2 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/2, op
+erational Receive Flow Control state changed to off
+2023 Jul 20 15:33:01 R2 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/2, op
+erational Transmit Flow Control state changed to off
+2023 Jul 20 15:33:01 R2 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in Layer3
+2023 Jul 20 15:33:39 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
+in on console0
+2023 Jul 20 15:35:30 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
+in on console0 (message repeated 1 time)
+2023 Jul 20 15:36:51 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from FULL to DOWN, DEADTIME
+2023 Jul 20 15:37:03 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from FULL to DOWN, DEADTIME (message repeated 1 time)
+2023 Jul 20 15:37:03 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from DOWN to INIT, HELLORCVD
+2023 Jul 20 15:37:10 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from INIT to EXSTART, ADJOK
+2023 Jul 20 15:37:10 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from EXSTART to EXCHANGE, NEGDONE
+2023 Jul 20 15:37:10 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from EXCHANGE to LOADING, EXCHDONE
+2023 Jul 20 15:37:10 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from LOADING to FULL, LDDONE
+2023 Jul 20 15:42:06 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from FULL to DOWN, DEADTIME
+2023 Jul 20 15:42:15 R2 %OSPF-5-NBRSTATE:  ospf-10 [10316]  Process 10, Nbr 10.1
+.2.3 on Ethernet1/2 from FULL to DOWN, DEADTIME (message repeated 1 time)
+2023 Jul 20 15:42:15 R2 %OSPF-4-CLEANUP:  ospf-10 [10316]  OSPF is exiting, reas
+on No error(0x0)
+2023 Jul 20 15:47:08 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
+in on console0
