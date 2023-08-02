@@ -179,3 +179,233 @@ in on console0 (message repeated 1 time)
 on No error(0x0)
 2023 Jul 20 15:47:08 R2 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by adm
 in on console0
+
+
+Samples
+
+Sample BGP syslog messages:
+1. BGP neighbor adjacency change - Up:
+   ```
+   %BGP-5-ADJCHANGE: neighbor 192.168.1.1 Up
+   ```
+
+2. BGP neighbor adjacency change - Down:
+   ```
+   %BGP-5-ADJCHANGE: neighbor 10.0.0.2 Down
+   ```
+
+3. BGP notification - Route flap dampening:
+   ```
+   %BGP-3-NOTIFICATION: Route flap dampening triggered for 203.0.113.0/24
+   ```
+
+4. BGP notification - Hold timer expiry:
+   ```
+   %BGP-3-NOTIFICATION: Hold timer expired for neighbor 172.16.0.1
+   ```
+
+5. BGP AS path update:
+   ```
+   %BGP-5-ASPATH: Updated AS path for 198.51.100.0/24 via 64512 64513 64514
+   ```
+
+6. BGP update - New route announcement:
+   ```
+   %BGP-5-UPDATE: Received update for 10.20.30.0/24 from peer 192.168.2.1
+   ```
+
+7. BGP update - Withdrawal of route:
+   ```
+   %BGP-5-UPDATE: Withdrawn route 172.31.0.0/16 by neighbor 10.1.1.1
+   ```
+
+Sample OSPF syslog messages:
+1. OSPF neighbor adjacency change - Full:
+   ```
+   %OSPF-5-ADJCHG: Process 1, Nbr 192.168.0.1 on GigabitEthernet0/1 from Loading to Full
+   ```
+
+2. OSPF neighbor adjacency change - Loading:
+   ```
+   %OSPF-5-ADJCHG: Process 1, Nbr 10.0.0.2 on GigabitEthernet0/2 from Init to Loading
+   ```
+
+3. OSPF neighbor adjacency change - Down:
+   ```
+   %OSPF-5-ADJCHG: Process 2, Nbr 172.16.1.1 on FastEthernet1/0 from Full to Down
+   ```
+
+4. OSPF error received from neighbor:
+   ```
+   %OSPF-4-ERRRCV: Received OSPF error from 10.1.1.1 - Unknown LSA type
+   ```
+
+5. OSPF interface forming a self-loop:
+   ```
+   %OSPF-5-SELFLOOPEV: OSPF interface Loopback0 forming a self-loop
+   ```
+
+6. OSPF hello packet sent:
+   ```
+   %OSPF-4-HELLO: Sent OSPF hello packet on Ethernet0/0 to 192.168.2.2
+   ```
+
+7. OSPF hello packet received:
+   ```
+   %OSPF-4-HELLO: Received OSPF hello packet from 10.10.10.1 on FastEthernet0/1
+   ```
+  
+LTM Samples
+
+1. Virtual server status change - Enabled:
+   ```
+   %LTM-5-STATE_CHANGE: Virtual server /Common/example_vs is now enabled.
+   ```
+
+2. Virtual server status change - Disabled:
+   ```
+   %LTM-5-STATE_CHANGE: Virtual server /Common/api_vs is now disabled.
+   ```
+
+3. Pool member status change - Up:
+   ```
+   %LTM-5-POOL_MEMBER_UP: Pool member /Common/app_pool.member1 is now available.
+   ```
+
+4. Pool member status change - Down:
+   ```
+   %LTM-5-POOL_MEMBER_DOWN: Pool member /Common/app_pool.member2 is now unavailable.
+   ```
+
+5. Pool member status change - Disabled:
+   ```
+   %LTM-5-POOL_MEMBER_DISABLED: Pool member /Common/app_pool.member3 is now disabled.
+   ```
+
+6. Node status change - Up:
+   ```
+   %LTM-5-NODE_UP: Node /Common/server1.example.com is now available.
+   ```
+
+7. Node status change - Down:
+   ```
+   %LTM-5-NODE_DOWN: Node /Common/server2.example.com is now offline.
+   ```
+
+8. Persistence profile change:
+   ```
+   %LTM-5-PERSISTENCE_CHANGE: Persistence profile /Common/cookie_persist was modified.
+   ```
+
+9. Virtual server connection rate limit exceeded:
+   ```
+   %LTM-4-CONN_RATE_LIMIT_EXCEEDED: Connection rate limit exceeded for virtual server /Common/web_vs.
+   ```
+
+10. Virtual server IP port change:
+    ```
+    %LTM-5-VS_IP_PORT_CHANGE: Virtual server /Common/service_vs IP:Port changed from 203.0.113.10:80 to 203.0.113.10:8080.
+    ```
+GTM Samples
+1. GTM system startup:
+   ```
+   %GTM-5-STARTED: Global Traffic Manager system has started.
+   ```
+
+2. GTM system shutdown:
+   ```
+   %GTM-5-SHUTDOWN: Global Traffic Manager system is shutting down.
+   ```
+
+3. GTM pool member status change - Up:
+   ```
+   %GTM-5-POOL_MEMBER_UP: Pool member /Common/site1_pool.member1 is now available.
+   ```
+
+4. GTM pool member status change - Down:
+   ```
+   %GTM-5-POOL_MEMBER_DOWN: Pool member /Common/site1_pool.member2 is now unavailable.
+   ```
+
+5. GTM pool member status change - Disabled:
+   ```
+   %GTM-5-POOL_MEMBER_DISABLED: Pool member /Common/site1_pool.member3 is now disabled.
+   ```
+
+6. GTM wide IP status change - Enabled:
+   ```
+   %GTM-5-WIDEIP_ENABLED: Wide IP /Common/example.com is now enabled.
+   ```
+
+7. GTM wide IP status change - Disabled:
+   ```
+   %GTM-5-WIDEIP_DISABLED: Wide IP /Common/api.example.com is now disabled.
+   ```
+
+8. GTM wide IP pool change:
+   ```
+   %GTM-5-WIDEIP_POOL_CHANGE: Wide IP /Common/service.example.com pool changed to /Common/pool2.
+   ```
+
+9. GTM topology change:
+   ```
+   %GTM-5-TOPOLOGY_CHANGE: DNS Topology /Common/dc1.example.com was modified.
+   ```
+
+10. GTM data center status change:
+    ```
+    %GTM-5-DATACENTER_STATUS_CHANGE: Data center /Common/dc2 is now offline.
+   
+    ```
+Cisco Interfaces 
+
+1. Interface status change - Up:
+   ```
+   %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+   ```
+
+2. Interface status change - Down:
+   ```
+   %LINK-3-UPDOWN: Interface FastEthernet1/0, changed state to down
+   ```
+
+3. Interface status change - Administratively down:
+   ```
+   %LINK-5-CHANGED: Interface Serial0/0/0, changed state to administratively down
+   ```
+
+4. Interface status change - Line protocol up:
+   ```
+   %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to up
+   ```
+
+5. Interface status change - Line protocol down:
+   ```
+   %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+   ```
+
+6. Interface status change - Error-disabled:
+   ```
+   %PM-4-ERR_DISABLE: Error-disabled due to MAC address flapping on Interface GigabitEthernet2/1
+   ```
+
+7. Interface status change - MTU exceeded:
+   ```
+   %IP-4-MTU_EXCEEDED: IP MTU of GigabitEthernet0/2 exceeded, packet dropped
+   ```
+
+8. Interface status change - Duplex mismatch:
+   ```
+   %CDP-4-DUPLEX_MISMATCH: Duplex mismatch discovered on Interface FastEthernet0/2
+   ```
+
+9. Interface status change - Speed change:
+   ```
+   %LINK-5-CHANGED: Interface TenGigabitEthernet1/0/1, changed speed to 10 Gbps
+   ```
+
+10. Interface status change - Interface reset:
+    ```
+    %SYS-4-RESTART: Interface FastEthernet1/2 was reset by admin
+    ```
+
